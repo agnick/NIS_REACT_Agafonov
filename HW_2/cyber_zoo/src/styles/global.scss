@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #0f0f1a;
+  min-height: 100vh;
+  color: #e0e0e0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid #333;
+
+  h1 {
+    font-size: 24px;
+    color: #00d9ff;
+  }
+
+  p {
+    color: #888;
+    margin-top: 8px;
+  }
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.petGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.skeletonGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.skeletonCard {
+  background: #1e1e2e;
+  border-radius: 8px;
+  padding: 16px;
+  height: 320px;
+}
