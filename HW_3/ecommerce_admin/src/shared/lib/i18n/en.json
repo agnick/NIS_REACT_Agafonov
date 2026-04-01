@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "username": "Username",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "loginHint": "Use emilys / emilyspass",
+    "usernameRequired": "Username is required",
+    "passwordRequired": "Password is required",
+    "invalidCredentials": "Invalid username or password",
+    "loginError": "Login failed. Please try again.",
+    "registerStub": "Registration is not available yet. Please use existing credentials to log in."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {{name}}!",
+    "totalProducts": "Total Products",
+    "yourEmail": "Your Email"
+  },
+  "products": {
+    "title": "Products",
+    "search": "Search products...",
+    "price": "Price",
+    "rating": "Rating",
+    "category": "Category",
+    "stock": "In stock",
+    "brand": "Brand",
+    "description": "Description",
+    "backToList": "Back to products",
+    "noProducts": "No products found",
+    "loading": "Loading products...",
+    "error": "Failed to load products",
+    "images": "Product Images"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "email": "Email",
+    "username": "Username",
+    "logoutButton": "Logout"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "pageSize": "Products per page",
+    "light": "Light",
+    "dark": "Dark",
+    "russian": "Russian",
+    "english": "English"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "notFound": "Page not found",
+    "notFoundMessage": "The page you are looking for does not exist.",
+    "goHome": "Go to Dashboard",
+    "page": "Page"
+  }
+}

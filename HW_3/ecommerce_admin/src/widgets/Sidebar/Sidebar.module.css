@@ -1,0 +1,48 @@
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background-color: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  flex-shrink: 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 24px 20px;
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 12px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0 12px;
+}
+
+.link {
+  display: block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.link:hover {
+  background-color: var(--color-hover);
+  color: var(--color-text);
+}
+
+.active {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  font-weight: 600;
+}

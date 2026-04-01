@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "dashboard": "Главная",
+    "products": "Товары",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "logout": "Выход"
+  },
+  "auth": {
+    "login": "Вход",
+    "register": "Регистрация",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "signIn": "Войти",
+    "signUp": "Зарегистрироваться",
+    "noAccount": "Нет аккаунта?",
+    "haveAccount": "Уже есть аккаунт?",
+    "loginHint": "Используйте emilys / emilyspass",
+    "usernameRequired": "Введите имя пользователя",
+    "passwordRequired": "Введите пароль",
+    "invalidCredentials": "Неверное имя пользователя или пароль",
+    "loginError": "Ошибка входа. Попробуйте снова.",
+    "registerStub": "Регистрация пока недоступна. Используйте существующие учётные данные для входа."
+  },
+  "dashboard": {
+    "title": "Главная",
+    "welcome": "С возвращением, {{name}}!",
+    "totalProducts": "Всего товаров",
+    "yourEmail": "Ваш Email"
+  },
+  "products": {
+    "title": "Товары",
+    "search": "Поиск товаров...",
+    "price": "Цена",
+    "rating": "Рейтинг",
+    "category": "Категория",
+    "stock": "В наличии",
+    "brand": "Бренд",
+    "description": "Описание",
+    "backToList": "Назад к товарам",
+    "noProducts": "Товары не найдены",
+    "loading": "Загрузка товаров...",
+    "error": "Не удалось загрузить товары",
+    "images": "Изображения товара"
+  },
+  "profile": {
+    "title": "Профиль",
+    "name": "Имя",
+    "email": "Электронная почта",
+    "username": "Имя пользователя",
+    "logoutButton": "Выйти"
+  },
+  "settings": {
+    "title": "Настройки",
+    "language": "Язык",
+    "theme": "Тема",
+    "pageSize": "Товаров на странице",
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "russian": "Русский",
+    "english": "Английский"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Что-то пошло не так",
+    "retry": "Повторить",
+    "notFound": "Страница не найдена",
+    "notFoundMessage": "Запрашиваемая страница не существует.",
+    "goHome": "На главную",
+    "page": "Страница"
+  }
+}

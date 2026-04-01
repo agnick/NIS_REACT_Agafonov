@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 16px;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.hint {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin: 0;
+}
+
+.apiError {
+  font-size: 13px;
+  color: var(--color-danger);
+  text-align: center;
+  margin: 0;
+}
