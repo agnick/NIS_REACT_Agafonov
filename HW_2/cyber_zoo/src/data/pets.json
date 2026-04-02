@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1",
+    "name": "Нео кот",
+    "species": "cat",
+    "mood": "happy",
+    "energy": 80,
+    "level": 1,
+    "avatar": "🐱"
+  },
+  {
+    "id": "2",
+    "name": "Кибер пес",
+    "species": "dog",
+    "mood": "happy",
+    "energy": 90,
+    "level": 2,
+    "avatar": "🐕"
+  },
+  {
+    "id": "3",
+    "name": "Техно кролик",
+    "species": "rabbit",
+    "mood": "neutral",
+    "energy": 60,
+    "level": 1,
+    "avatar": "🐰"
+  },
+  {
+    "id": "4",
+    "name": "Дрон птица",
+    "species": "bird",
+    "mood": "happy",
+    "energy": 75,
+    "level": 3,
+    "avatar": "🦜"
+  },
+  {
+    "id": "5",
+    "name": "Механический хомяк",
+    "species": "hamster",
+    "mood": "neutral",
+    "energy": 50,
+    "level": 1,
+    "avatar": "🐹"
+  },
+  {
+    "id": "6",
+    "name": "Плазма кот",
+    "species": "cat",
+    "mood": "happy",
+    "energy": 100,
+    "level": 5,
+    "avatar": "😺"
+  },
+  {
+    "id": "7",
+    "name": "Робо пес",
+    "species": "dog",
+    "mood": "happy",
+    "energy": 85,
+    "level": 2,
+    "avatar": "🐶"
+  },
+  {
+    "id": "8",
+    "name": "Квантовый кролик",
+    "species": "rabbit",
+    "mood": "happy",
+    "energy": 70,
+    "level": 4,
+    "avatar": "🐇"
+  }
+]
+
